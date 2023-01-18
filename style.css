@@ -1,0 +1,251 @@
+header {
+    position: sticky;
+    height: 200px;
+    width: 100%;  
+    border-bottom-style: solid;
+}
+
+.heading {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 55px;
+
+    color: #21225F;
+}
+    .top {
+        width: 100%;
+        height: 43px;
+        right: 20px;
+        top: 50%;
+        background: #132C4B;
+        color: #FFFFFF;
+    }
+
+        .navbar .logo {
+            position: relative;
+            width: 358px;
+            height: 70px;
+            text-align: center;
+            float: left;
+
+            background: #00C2FF;
+            border-radius: 0px 20px 20px 0px;
+        }
+
+            .navbar .logo p {
+                top: 50%;
+                left: 50%;
+                color: white;
+            }
+
+        .navbar .nav {
+            float: left;
+            width: 110px;
+            height: 25px;
+        }
+
+        .navbar .search {
+            width: 342px;
+            height: 50px;
+            float: right;
+        }
+
+#main {
+    height: 930px;
+}
+
+.main-allcourses {
+    width: 220px;
+    height: 50px;
+    background-color: #009AFE;
+    color: #FFFFFF;
+}
+
+#whyus {
+    border-bottom-style: solid;
+}
+
+.aboutcourse {
+    float:left;
+    width: 437px;
+    height: 96px;
+    border: 0.5px solid #A0A0A0;
+    border-radius: 5px;
+}
+
+#our-courses {
+    width: 100%;
+    height: 1420px;
+    border-bottom-style: solid;
+}
+
+#our-courses h1 {
+    left: 638px;
+    top: 83px;
+
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 55px;
+
+    color: #21225F;
+}
+
+    .course {
+        width: 449.55px;
+        height: 437.28px;
+        border: solid;
+        float: left;
+    }
+
+        .course .course-image {
+            width: 449.62px;
+            height: 231.3px;
+        }
+
+        .course .course-teacher {
+            width: 31.77px;
+            height: 44.32px;
+        }
+
+        .course img {
+            width: 31.77px;
+            height: 44.32px;
+            float: left;
+        }
+
+        .course-teacher-name {
+            width: 156px;
+            height: 49px;
+
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+        }
+
+        .course-cost {
+            width: 185px;
+            height: 49px;
+
+            float: right;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+        }
+
+        .courses-all-button {
+            position: absolute;
+            width: 220px;
+            height: 50px;
+
+            background: #009AFE;
+        }
+
+#our-teachers {
+    width: 100%;
+    height: 1381px;
+    border-bottom-style: solid;
+}
+
+    .our-teachers-title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #21225F;
+    }
+
+    .teachers {
+        width: 1438px;
+    }
+
+        .teacher-info {
+            width: 340px;
+            height: 340px;
+            float: left;
+        }
+
+        .teacher-info img {
+            width: 340px;
+            height: 340px;
+        }
+
+        .teacher-info .teacher-info-name {
+            width: 318px;
+            height: 109px;
+            left: 11px;
+            top: 297px;
+            align-items: center;
+            text-align: center;
+
+            background: #FFFFFF;
+        }
+
+#formats {
+    border-bottom-style: solid;
+}
+
+#formats .types {
+    align-items: center;
+}
+
+.format {
+    width: 37%;
+    height: 222px;
+    background: rgba(0, 194, 255, 0.2);
+}
+
+#reviews {
+    height: 364px;
+    background: rgba(19, 44, 75, 0.9);
+}
+
+#reviews h1 {
+    position: relative;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+#contacts {
+    height: 500px;
+    width: 100%;    
+}
+
+    .d1 {
+        width: 573px;
+        height: 55px;
+        left: 250px;
+        top: 130px;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+    }
+
+    .d2 {
+        position:absolute;
+        width: 250px;
+        height: 270px;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+    }
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #D9D9D9;
+}
