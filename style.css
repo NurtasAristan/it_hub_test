@@ -1,251 +1,1038 @@
-header {
-    position: sticky;
-    height: 200px;
-    width: 100%;  
-    border-bottom-style: solid;
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap');
+
+.top {
+    height: 53px;
+    left: 0px;
+    top: 0px;
+    background: #132C4B;
 }
 
-.heading {
-    text-align: center;
-    font-family: 'Montserrat';
+.top-login {
+    position: absolute;
+    width: 147px;
+    height: 43px;
+    right: 241px;
+    top: 10px;
+
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 45px;
-    line-height: 55px;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 
-    color: #21225F;
-}
-    .top {
-        width: 100%;
-        height: 43px;
-        right: 20px;
-        top: 50%;
-        background: #132C4B;
-        color: #FFFFFF;
-    }
-
-        .navbar .logo {
-            position: relative;
-            width: 358px;
-            height: 70px;
-            text-align: center;
-            float: left;
-
-            background: #00C2FF;
-            border-radius: 0px 20px 20px 0px;
-        }
-
-            .navbar .logo p {
-                top: 50%;
-                left: 50%;
-                color: white;
-            }
-
-        .navbar .nav {
-            float: left;
-            width: 110px;
-            height: 25px;
-        }
-
-        .navbar .search {
-            width: 342px;
-            height: 50px;
-            float: right;
-        }
-
-#main {
-    height: 930px;
-}
-
-.main-allcourses {
-    width: 220px;
-    height: 50px;
-    background-color: #009AFE;
     color: #FFFFFF;
 }
 
-#whyus {
-    border-bottom-style: solid;
+.top-number {
+    position: absolute;
+    width: 147px;
+    height: 43px;
+    right: 18.81px;
+    top: 10px;
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
 }
 
-.aboutcourse {
-    float:left;
+.logo {
+    position: absolute;
+    width: 358px;
+    height: 128px;
+    left: 0px;
+    top: 40px;
+
+    background: #00C2FF;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.logo-content {
+    position: absolute;
+    width: 233px;
+    height: 82.03px;
+    left: 52px;
+    top: 22px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 37px;
+
+    position: absolute;
+    width: 765px;
+    height: 23px;
+    left: 457px;
+    top: 92px;
+}
+
+.navbar a {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#search-box {
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    right: 50px;
+    top: 78px;
+
+    background: #F5F5F5;
+}
+
+#main {
+    position: absolute;
+    width: 100%;
+    height: 927px;
+    left: 0px;
+    top: 153px;
+    background: #FAFAFA;
+}
+
+.main-h {
+    position: absolute;
+    width: 573px;
+    height: 193px;
+    left: 77px;
+    top: 319px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 128.9%;
+    /* or 62px */
+
+    color: #132C4B;
+}
+
+.main-p {
+    position: absolute;
+    width: 573px;
+    height: 105px;
+    left: 77px;
+    top: 511px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 165.4%;
+    /* or 33px */
+
+    color: #646464;
+}
+
+.main-b {
+    position: absolute;
+    width: 220px;
+    height: 50px;
+    left: 77px;
+    top: 635px;
+
+    background: #009AFE;
+}
+
+.main-b-t {
+    position: absolute;
+    width: 254px;
+    height: 23px;
+    left: 21px;
+    top: 13px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.main-img {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    right: 0px;
+    top: 153px;
+}
+
+.main-c {
+    box-sizing: border-box;
+
+    position: absolute;
     width: 437px;
     height: 96px;
+
+    background: #FFFFFF;
     border: 0.5px solid #A0A0A0;
     border-radius: 5px;
 }
 
-#our-courses {
-    width: 100%;
-    height: 1420px;
-    border-bottom-style: solid;
+.main-c-circle {
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    left: 13px;
+    top: 17px;
+    border-radius: 50%;
 }
 
-#our-courses h1 {
-    left: 638px;
-    top: 83px;
+.main-c-circle-img {
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    left: 19px;
+    top: 15px;
+}
 
-    text-align: center;
-    font-family: 'Montserrat';
+.main-c-t {
+    position: absolute;
+    width: 323px;
+    height: 58px;
+    left: 110px;
+    top: 20px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.titles {
+    position: absolute;
+    width: 645px;
+    height: 110px;
+    left: 638px;
+
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 45px;
     line-height: 55px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 
     color: #21225F;
 }
 
-    .course {
-        width: 449.55px;
-        height: 437.28px;
-        border: solid;
-        float: left;
-    }
+#our-courses {
+    position: absolute;
+    height: 1420px;
+    left: 0px;
+    top: 1524px;
 
-        .course .course-image {
-            width: 449.62px;
-            height: 231.3px;
-        }
-
-        .course .course-teacher {
-            width: 31.77px;
-            height: 44.32px;
-        }
-
-        .course img {
-            width: 31.77px;
-            height: 44.32px;
-            float: left;
-        }
-
-        .course-teacher-name {
-            width: 156px;
-            height: 49px;
-
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 16px;
-        }
-
-        .course-cost {
-            width: 185px;
-            height: 49px;
-
-            float: right;
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 300;
-            font-size: 16px;
-        }
-
-        .courses-all-button {
-            position: absolute;
-            width: 220px;
-            height: 50px;
-
-            background: #009AFE;
-        }
-
-#our-teachers {
-    width: 100%;
-    height: 1381px;
-    border-bottom-style: solid;
+    background: #FAFAFA;
 }
 
-    .our-teachers-title {
-        font-family: 'Montserrat';
-        font-style: normal;
-        display: flex;
-        align-items: center;
-        text-align: center;
+.our-courses-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 50px;
 
-        color: #21225F;
-    }
-
-    .teachers {
-        width: 1438px;
-    }
-
-        .teacher-info {
-            width: 340px;
-            height: 340px;
-            float: left;
-        }
-
-        .teacher-info img {
-            width: 340px;
-            height: 340px;
-        }
-
-        .teacher-info .teacher-info-name {
-            width: 318px;
-            height: 109px;
-            left: 11px;
-            top: 297px;
-            align-items: center;
-            text-align: center;
-
-            background: #FFFFFF;
-        }
-
-#formats {
-    border-bottom-style: solid;
+    position: absolute;
+    width: 1292px;
+    height: 35px;
+    left: 317px;
+    top: 213px;
 }
 
-#formats .types {
+.our-courses-bar a {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
     align-items: center;
+    text-align: center;
+
+    color: #000000;
 }
 
-.format {
-    width: 37%;
-    height: 222px;
+.our-courses-line {
+    position: absolute;
+    width: 850px;
+    height: 0px;
+    left: 316px;
+    top: 257px;
+
+    border: 0.5px solid #000000;
+}
+
+.our-courses-course {
+    position: absolute;
+    width: 449.55px;
+    height: 437.28px;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.our-courses-course-img {
+    position: absolute;
+    width: 100%;
+    height: 231.3px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.our-courses-course-type {
+    position: absolute;
+    width: 200px;
+    height: 25px;
+    left: 13px;
+    top: 242px;
+
     background: rgba(0, 194, 255, 0.2);
 }
 
-#reviews {
+.our-courses-course-type-text {
+    position: absolute;
+    width: 119px;
+    height: 12px;
+    left: 10px;
+    top: 7px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+
+    color: #00C2FF;
+}
+
+.our-courses-course-rating-stars {
+    position: absolute;
+    width: 78.09px;
+    height: 14.5px;
+    left: 289px;
+    top: 247.04px;
+    color: #F7B000;
+}
+
+.our-courses-course-name {
+    position: absolute;
+    width: 400.16px;
+    height: 87.96px;
+    left: 24.73px;
+    top: 279px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.our-courses-course-teacher-img {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    left: 23px;
+    top: 391px;
+
+    background: #D9D9D9;
+}
+
+.our-courses-course-teacher-name {
+    position: absolute;
+    width: 156px;
+    height: 49px;
+    left: 66px;
+    top: 383px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+
+    color: #707070;
+}
+
+.our-courses-course-cost {
+    position: absolute;
+    width: 185px;
+    height: 49px;
+    right: 19.55px;
+    top: 383px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+    color: #21225F;
+}
+
+.our-courses-b {
+    position: absolute;
+    width: 220px;
+    height: 50px;
+    left: 700px;
+    top: 2774px;
+
+    background: #009AFE;
+}
+
+.our-courses-b-t {
+    position: absolute;
+    width: 254px;
+    height: 23px;
+    left: 14px;
+    top: 13px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.our-courses-after {
+    position: absolute;
+    width: 100%;
     height: 364px;
+    left: 0px;
+    top: 2940px;
+
     background: rgba(19, 44, 75, 0.9);
 }
 
-#reviews h1 {
-    position: relative;
+.our-courses-after-t {
+    position: absolute;
+    width: 918px;
+    height: 202px;
+    left: 113px;
+    top: 92px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
     font-weight: 700;
     font-size: 45px;
     line-height: 55px;
+    display: flex;
     align-items: center;
 
     color: #FFFFFF;
 }
 
-#contacts {
-    height: 500px;
-    width: 100%;    
+.our-courses-after-b {
+    position: absolute;
+    width: 220px;
+    height: 50px;
+    right: 206px;
+    top: 167px;
+
+    background: #00C2FF;
 }
 
-    .d1 {
-        width: 573px;
-        height: 55px;
-        left: 250px;
-        top: 130px;
+.our-courses-after-b-t {
+    position: absolute;
+    width: 254px;
+    height: 23px;
+    left: 40px;
+    top: 12px;
 
-        font-family: 'Montserrat';
-        font-style: normal;
-    }
-
-    .d2 {
-        position:absolute;
-        width: 250px;
-        height: 270px;
-
-        font-family: 'Montserrat';
-        font-style: normal;
-    }
-
-footer {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 16px;
     display: flex;
-    justify-content: center;
-    padding: 5px;
-    background-color: #D9D9D9;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#our-teachers {
+    position: absolute;
+    width: 100%;
+    height: 1281px;
+    left: 0px;
+    top: 3295px;
+
+    background: #EEEEEE;
+}
+
+.our-teachers-teacher {
+    position: absolute;
+    width: 340px;
+    height: 406px;
+}
+
+.our-teachers-teacher-img {
+    position: absolute;
+    width: 340px;
+    height: 340px;
+}
+
+.our-teachers-teacher-info {
+    position: absolute;
+    width: 318px;
+    height: 109px;
+    left: 11px;
+    top: 297px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.15);
+}
+
+.our-teachers-teacher-info-name {
+    position: absolute;
+    width: 260px;
+    height: 26.45px;
+    left: 29px;
+    top: 22.44px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #010101;
+}
+
+.our-teachers-teacher-info-title {
+    position: absolute;
+    width: 260px;
+    height: 30px;
+    left: 29px;
+    top: 58px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #010101;
+}
+
+.our-teachers-b {
+    position: absolute;
+    width: 220px;
+    height: 50px;
+    left: 650px;
+    top: 1097px;
+
+    background: #009AFE;
+}
+
+.our-teachers-b-t {
+    position: absolute;
+    width: 254px;
+    height: 23px;
+    left: 60px;
+    top: 13px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+#teaching-formats {
+    position: absolute;
+    width: 100%;
+    height: 1420px;
+    left: 0px;
+    top: 4633px;
+
+    background: #FAFAFA;
+}
+
+.teaching-formats-format {
+    position: absolute;
+    width: 705px;
+    height: 222px;
+    top: 263px;
+
+    background: rgba(0, 194, 255, 0.2);
+}
+
+.teaching-formats-format-t {
+    position: absolute;
+    width: 315px;
+    height: 96px;
+    top: 63px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.teaching-formats-format img {
+    position: absolute;
+    width: 274px;
+    height: 274px;
+    bottom: 0px;
+
+   transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.teaching-formats-tou-ext {
+    position: absolute;
+    width: 645px;
+    height: 110px;
+    left: 206px;
+    top: 625px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+
+    color: #21225F;
+}
+
+.teaching-formats-tou-ext-info {
+    position: absolute;
+    width: 734px;
+    height: 101px;
+    left: 206px;
+    top: 738px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    /* or 24px */
+
+    color: #646464;
+}
+
+.teaching-formats-tou-ext-plus {
+    position: absolute;
+    width: 499px;
+    height: 109px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.15);
+}
+
+.teaching-formats-tou-ext-plus-img {
+    position: absolute;
+    width: 63px;
+    height: 63px;
+    left: 32px;
+    top: 24px;
+    border-radius: 50%;
+    background: #FAFAFA;
+}
+
+.teaching-formats-tou-ext-plus-img img {
+    position: absolute;
+    width: 32px;
+    height: 34px;
+    left: 15px;
+    top: 15px;
+}
+
+.teaching-formats-tou-ext-plus-t1 {
+    position: absolute;
+    width: 362px;
+    height: 27px;
+    left: 123px;
+    top: 20px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.teaching-formats-tou-ext-plus-t2 {
+    position: absolute;
+    width: 357px;
+    height: 26px;
+    left: 123px;
+    top: 57px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.teaching-formats-tou-ext-plus-bigimg {
+    position: absolute;
+    width: 1157px;
+    height: 730px;
+    left: 524px;
+    top: 690px;
+}
+
+#reviews {
+    position: absolute;
+    width: 100%;
+    height: 601px;
+    left: 0px;
+    top: 6053px;
+
+    background: #132C4B;
+}
+
+.reviews-t1 {
+    position: absolute;
+    width: 645px;
+    height: 110px;
+    left: 100px;
+    top: 95px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.reviews-t2 {
+    position: absolute;
+    width: 645px;
+    height: 110px;
+    left: 100px;
+    top: 196px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.reviews-t3 {
+    position: absolute;
+    width: 645px;
+    height: 69px;
+    left: 100px;
+    top: 306px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.reviews-img {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    top: 429px;
+
+    background: #D9D9D9;
+    border: 5px solid #FFFFFF;
+    border-radius: 50%;
+}
+
+.reviews-count {
+    position: absolute;
+    width: 99px;
+    height: 69px;
+    left: 280px;
+    top: 420px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.reviews-bigimg {
+    position: absolute;
+    width: 322px;
+    height: 322px;
+    left: 1161px;
+    top: 116px;
+}
+
+.reviews-review {
+    position: absolute;
+    width: 478px;
+    height: 204px;
+    left: 789px;
+    top: 277px;
+
+    background: #FFFFFF;
+}
+
+.reviews-review-t1 {
+    position: absolute;
+    width: 381px;
+    height: 57px;
+    left: 49px;
+    top: 29px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700; 
+    font-size: 24px; 
+    line-height: 29px;
+    align-items: center;
+    text-align: center;
+
+    color: #132C4B;
+}
+
+.reviews-review-t2 {
+    position: absolute;
+    width: 381px;
+    height: 57px;
+    left: 215px;
+    top: 60px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #009AFE;
+}
+
+.reviews-review-t3 {
+    position: absolute;
+    width: 381px;
+    height: 57px;
+    left: 49px;
+    top: 102px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+
+    color: #132C4B;
+}
+
+#contacts {
+    position: absolute;
+    width: 100%;
+    height: 611px;
+    left: 0px;
+    top: 6650px;
+
+    background: #FAFAFA;
+}
+
+.contacts-t1 {
+    position: absolute;
+    width: 573px;
+    height: 55px;
+    left: 100px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 10px;
+    /* or 42% */
+}
+
+.contacts-t2 {
+    position: absolute;
+    width: 573px;
+    height: 105px;
+    left: 100px;
+    top: 214px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    /* or 28px */
+
+    color: #646464;
+}
+
+.contacts-t3 {
+    position: absolute;
+    width: 242px;
+    height: 55px;
+    top: 130px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 10px;
+    /* or 42% */
+
+    color: #132C4B;
+}
+
+.contacts-courses_aboutus {
+    position: absolute;
+    width: 212px;
+    height: 218px;
+    left: 867px;
+    top: 186px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    /* or 158% */
+
+    color: #132C4B;
+}
+
+#contacts a {
+    display: block;
+}
+
+.contacts-contacts {
+    position: absolute;
+    width: 285px;
+    height: 218px;
+    left: 1204px;
+    top: 186px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    /* or 158% */
+
+    color: #132C4B;
+}
+
+.contacts-footer {
+    position: absolute;
+    width: 100%;
+    height: 109px;
+    left: 0px;
+    top: 502px;
+
+    background: #D9D9D9;
+}
+
+.contacts-footer-t {
+    position: absolute;
+    width: 396px;
+    height: 44px;
+    left: 562px;
+    top: 47px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 10px;
+    /* or 62% */
+
+    text-align: center;
+
+    color: #000000;
 }
